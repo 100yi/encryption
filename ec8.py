@@ -1,3 +1,4 @@
+# Cipher name is EC8. This is binary cipher. One character encode by five bits.
 
 
 _dict_to_ec8 = {
@@ -105,9 +106,3 @@ class Ec8:
             return 'Use .encode_ec8() and .decode_ec8() later use .value'
 
     value = property(fget=get_value)
-
-
-ec8 = Ec8('hi!')
-ec8.encode_ec8()
-ec8.decode_ec8()
-ec8.value
